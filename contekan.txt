@@ -1,0 +1,15 @@
+<?php 
+
+function factoriallooping(int $value): int
+{
+    $total = 1;
+
+    for($i = 1; $i <= $value; $i++) {
+        $total = $total * $i; 
+    }
+
+    return $total;
+}
+
+var_dump(factoriallooping(5));
+var_dump(1 * 2 * 3 * 4 * 5);
